@@ -23,7 +23,8 @@ $( document ).ready(function() {
 }
 ```
 
-Options handle language, fallback language, locale, and browser detection
+Options handle language, fallback language, locale, and browser detection.
+If "lang" is not set, we'll get the accept language of the browser.
 ```
 var options = {
     lang:'sv', //what language to use
