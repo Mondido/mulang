@@ -16,7 +16,7 @@ Benefits are:
 ```
 
 ## Init
-Initialize the library like this:
+initialize the library like this:
 ```
 $( document ).ready(function() {
     $('a').mulang(options); // find all a tags to work with
