@@ -8,6 +8,13 @@ Benefits are:
 - *Cross Origin*, the JSON is padded and can be linked/loaded as a normal `<script>` tag.   
 - *Auto language*, either specify language or let the browser set it.   
 
+## Add it
+```
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="lib/mulang-1.0.js"></script>
+<script type="text/javascript" src="lang/languages.js"></script>
+```
+
 ## Init
 Initialize the library like this:
 ```
