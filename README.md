@@ -12,7 +12,7 @@ Benefits are:
 Initialize the library like this:
 ```
 $( document ).ready(function() {
-    $('a').mulang(options);
+    $('a').mulang(options); // find all a tags to work with
 }
 ```
 
@@ -23,4 +23,22 @@ var options = {
     fallback:'en', //if lang is not found in file, fall back to this
     ignore_locale:true //when grabbing the language from the browser (en-US) ignore the locale (US) 
 }
+```
+
+## HTML
+The syntax to allow text to be replaces in HTML is:
+```
+<a href="#" mulang="card_holder">text to be replaced</a>
+```
+To replace a certain attribute (in this case, the value attribute:
+```
+<input mulang="card_number:value" />
+```
+To apply placeholders:
+```
+<a href="#" mulang="headline['<b>10</b>','USD']">text to be replaced</a>
+```
+The placeholder string use the {0} syntax:
+```
+headline:'Pay amount {0} {1}'
 ```
