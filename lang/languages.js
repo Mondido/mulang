@@ -62,7 +62,69 @@ window.__mulang = {
     pay_button:'betale',
     safe_text:'Betal sikkert med 256 bit SSL kryptering. Ingen kort bliver gemt upgifter.',
     loading: 'Lastning'
+  },
+  nl: {
+    pay_headline:'Betaling',
+    amount: 'Bedrag: <strong>{0} {1}</strong>',
+    intro:'Intro',
+    card_holder:'Kaarthouder naam',
+    card_holder_placeholder: 'Voornaam Achternaam',
+    card_number:'Kaartnummer',
+    card_number_placeholder:'Uw kaartnummer',
+    card_type:'Kaarten type',
+    card_type_placeholder: 'VISA / MASTERCARD',
+    cvc:'CVV code',
+    expiry:'Fervaldatum',
+    pay_button:'Afwerking betaling',
+    safe_text:'Veilig betalen met 256 bit SSL encryptie. Geen kaart nummers worden opgeslagen De.',
+    loading: 'Het laden'
+  },
+  fi: {
+    pay_headline:'Maksu',
+    amount: 'Määrä: <strong>{0} {1}</strong>',
+    intro:'Intro',
+    card_holder:'Kortinhaltijan nimi',
+    card_holder_placeholder: 'Etunimi Sukunimi',
+    card_number:'Kortin numero',
+    card_number_placeholder:'Kortin numero',
+    card_type:'Kortin tyyppi',
+    card_type_placeholder: 'VISA / MASTERCARD',
+    cvc:'CVV koodi',
+    expiry:'Viimeinen voimassaolopäivä',
+    pay_button:'Viimeistely maksu',
+    safe_text:'Maksaa turvallisesti 256 bitin SSL-salausta. Ei numeroita tallennetaan.',
+    loading: 'Ladataan'
+  },
+  es: {
+    pay_headline:'Pago',
+    amount: 'Cantidad: <strong>{0} {1}</strong>',
+    intro:'Intro',
+    card_holder:'Nombre del titular',
+    card_holder_placeholder: 'Nombre Apellidos',
+    card_number:'Número de tarjeta',
+    card_number_placeholder:'Su número de tarjeta',
+    card_type:'Tipo de tarjeta',
+    card_type_placeholder: 'VISA / MASTERCARD',
+    cvc:'CVV prefijo',
+    expiry:'Fecha de caducidad',
+    pay_button:'Pago Finalizar',
+    safe_text:'Pague seguro con cifrado de 256 bits SSL. No hay números de tarjetas se almacenarán El.',
+    loading: 'Cargando'
+  },
+  fr: {
+    pay_headline:'Paiement',
+    amount: 'Montant: <strong>{0} {1}</strong>',
+    intro:'Intro',
+    card_holder:'Le nom du titulaire',
+    card_holder_placeholder: 'Prénom Nom',
+    card_number:'Numéro de la carte',
+    card_number_placeholder:'Votre numéro de carte',
+    card_type:'Type de carte',
+    card_type_placeholder: 'VISA / MASTERCARD',
+    cvc:'CVV code',
+    expiry:'Date d'expiration',
+    pay_button:'Paiement Terminer',
+    safe_text:'Payez en toute sécurité avec le cryptage 256 bits SSL. Pas de numéros de cartes seront stockées Le.',
+    loading: 'Chargement'
   }
-
-
 }
