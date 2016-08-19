@@ -1,4 +1,4 @@
-// Mondido mulang v1.5, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v1.6, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,
@@ -28,7 +28,6 @@ window.__mulang = {
     safe_text:'Your payment is made safe by Mondido. The store will never be in contact with your credit card information, all the information is sent encrypted to your bank. Mondido is PCI DSS Level 1 certified and use HTTPS / TLS, which is the banking industry standard for secure e-commerce transactions.',
     loading: 'Loading',
 
-    
     exp_month: 'Month',
     exp_year: 'Year',
     card_not_accepted: '{card} is not accepted',
@@ -41,7 +40,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Invoice',
     paypal_hl: 'Pay easily with PayPal',
-    paypal_btn: 'Pay with PayPal'
+    paypal_btn: 'Pay with PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
     
 },
   sv: {
@@ -72,8 +90,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Faktura',
     paypal_hl: 'HÃ¤r kan du enkelt betala med PayPal',
-    paypal_btn: 'Betala med PayPal'
+    paypal_btn: 'Betala med PayPal',
 
+    your_email_address: 'Din e-postadress',
+    your_phone_number: 'Ditt telefonnummer',
+    your_social_security_number: 'Ditt personnummer',
+
+    first_name: 'Förnamn',
+    last_name: 'Efternamn',
+    adress: 'Gatuadress',
+    co_adress: 'C/O Adress',
+    mask_zip: 'Postnummer',
+    mask_city: 'Stad',
+
+    i_accept: 'Jag accepterar',
+
+    invoice_address_could_not_be_retrieved: 'Din adress kunde inte hämtas. Kontrollera att du har skrivit rätt personnummer. Exempel 198605141234',
+    invoice_footer_conditions: 'När du väljer faktura får du hem dina varor innan du betalar. Du kan sedan välja att betala hela beloppet på en gång eller dela upp betalningen i mindre delar. För att kunna handla med Collectors faktura ska du vara minst 18 år. Fakturan kommer att skickas per e-post. Mer information hittar du på',
+    invoice_accept_conditions: 'Ja, jag accepterar <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_SE.pdf"> Allmänna villkor för faktura och kontokredit </a> och <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_SE.pdf"> Standardiserad Europeisk konsumentkreditinformation </a> , samt <a target="_new" class="m-layout-terms_and_conditions_url"> köpvillkor hos <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   de: {
     pay_headline:'Bezahlung',
@@ -103,7 +139,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Rechnung',
     paypal_hl: 'Moonrise Bezahlen mit PayPal',
-    paypal_btn: 'Bezahlen mit PayPal'
+    paypal_btn: 'Bezahlen mit PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   da: {
     pay_headline:'Betaling',
@@ -133,7 +188,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Faktura',
     paypal_hl: 'Nem betaling med PayPal',
-    paypal_btn: 'Betal med PayPal'
+    paypal_btn: 'Betal med PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   nl: {
     pay_headline:'Betaling',
@@ -163,7 +237,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Factuur',
     paypal_hl: 'Gemakkelijk betalen met PayPal',
-    paypal_btn: 'Betalen met PayPal'
+    paypal_btn: 'Betalen met PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   fi: {
     pay_headline:'Maksu',
@@ -193,7 +286,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Lasku',
     paypal_hl: 'Helppo maksu PayPal',
-    paypal_btn: 'Maksa PayPal'
+    paypal_btn: 'Maksa PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   es: {
     pay_headline:'Pago',
@@ -223,7 +335,26 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Factura',
     paypal_hl: 'CÃ³modos pagos con PayPal',
-    paypal_btn: 'Pagar con PayPal'
+    paypal_btn: 'Pagar con PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   },
   fr: {
     pay_headline:'Paiement',
@@ -253,6 +384,25 @@ window.__mulang = {
     paypal_payment: 'PayPal',
     invoice_payment: 'Facture',
     paypal_hl: 'FacilitÃ© de paiement avec PayPal',
-    paypal_btn: 'Payez avec PayPal'
+    paypal_btn: 'Payez avec PayPal',
+
+    your_email_address: 'Your email address',
+    your_phone_number: 'Your phone number',
+    your_social_security_number: 'Your Social Security number',
+
+    first_name: 'First name',
+    last_name: 'Last name',
+    adress: 'Adress',
+    co_adress: 'c/o Adress',
+    mask_zip: 'Zip',
+    mask_city: 'City',
+
+    i_accept: 'I accept',
+
+    invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 198605141234',
+    invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+
+    powered_by: 'Powered by '
   }
 };
