@@ -52,10 +52,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -108,12 +108,12 @@ window.__mulang = {
     your_mobile_number: 'Ditt mobilnummer',
     your_social_security_number: 'Ditt personnummer',
 
-    first_name: 'Förnamn',
-    last_name: 'Efternamn',
-    adress: 'Gatuadress',
-    co_adress: 'C/O Adress',
-    mask_zip: 'Postnummer',
-    mask_city: 'Stad',
+    first_name: 'First name',
+    last_name: 'Last name',
+    address: 'Gatuadress',
+    co_address: 'C/O Adress',
+    zip: 'Postnummer',
+    city: 'Stad',
 
     i_accept: 'Jag accepterar',
 
@@ -167,10 +167,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -224,10 +224,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -281,10 +281,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -338,10 +338,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -395,10 +395,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
@@ -452,10 +452,10 @@ window.__mulang = {
 
     first_name: 'First name',
     last_name: 'Last name',
-    adress: 'Adress',
-    co_adress: 'c/o Adress',
-    mask_zip: 'Zip',
-    mask_city: 'City',
+    address: 'Address',
+    co_address: 'c/o Address',
+    zip: 'Zip',
+    city: 'City',
 
     i_accept: 'I accept',
 
