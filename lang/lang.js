@@ -1,4 +1,4 @@
-// Mondido mulang v1.6.1s, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v1.6.1, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,
@@ -406,7 +406,7 @@ window.__mulang = {
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
 
-    what_is_tgit rustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
