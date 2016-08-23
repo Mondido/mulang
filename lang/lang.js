@@ -1,4 +1,4 @@
-// Mondido mulang v1.6, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v1.6.1s, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,

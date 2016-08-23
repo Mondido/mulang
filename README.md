@@ -12,7 +12,7 @@ Benefits are:
 ```
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="lib/mulang.js"></script>
-<script type="text/javascript" src="lang/languages.js"></script>
+<script type="text/javascript" src="lang/lang.js"></script>
 ```
 
 ## Init
