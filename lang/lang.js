@@ -1,4 +1,4 @@
-// Mondido mulang v1.6.3, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v1.6.4, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,
@@ -61,7 +61,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0}</a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -119,7 +119,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Din adress kunde inte hämtas. Kontrollera att du har skrivit rätt personnummer. Exempel 195203198089',
     invoice_footer_conditions: 'När du väljer faktura får du hem dina varor innan du betalar. Du kan sedan välja att betala hela beloppet på en gång eller dela upp betalningen i mindre delar. För att kunna handla med Collectors faktura ska du vara minst 18 år. Fakturan kommer att skickas per e-post. Mer information hittar du på',
-    invoice_accept_conditions: 'Ja, jag accepterar <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_SE.pdf"> Allmänna villkor för faktura och kontokredit </a> och <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_SE.pdf"> Standardiserad Europeisk konsumentkreditinformation </a> , samt <a target="_new" class="m-layout-terms_and_conditions_url"> köpvillkor hos <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Ja, jag accepterar <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> Allmänna villkor för faktura och kontokredit </a> och <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardiserad Europeisk konsumentkreditinformation </a> , samt <a target="_new" href="{1}"> köpvillkor hos {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/se/whatistrustly" target="_blank">Vad är Trustly?</a>',
 
@@ -176,7 +176,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -233,7 +233,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_DE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_DE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -290,7 +290,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_NL.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_NL.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -347,7 +347,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_FI.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_FI.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -404,7 +404,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
@@ -461,7 +461,7 @@ window.__mulang = {
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
     invoice_footer_conditions: 'When you select the invoice you will receive your goods before you pay. You can then choose to pay the whole amount at once or split the payment into smaller parts . In order to deal with the bill collectors will be at least 18 years. The invoice will be sent by e -mail. More information can be found at',
-    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/SUCUSE/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/SUCUSE/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" class="m-layout-terms_and_conditions_url"> Conditions <span class="m-layout-name"></span> </a>',
+    invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
 
