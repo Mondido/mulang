@@ -1,4 +1,4 @@
-// Mondido mulang v1.6.4, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v1.6.5, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,
@@ -75,7 +75,7 @@ window.__mulang = {
     amount: 'Summa: <strong>{0} {1}</strong>',
     intro:'Fyll i din betalinformation så kommer prenumerationen att komma igång!',
     card_holder:'Korthavarens namn',
-    card_holder_placeholder: 'FÃ¶rnamn Efternamn',
+    card_holder_placeholder: 'Förnamn Efternamn',
     card_number:'Kortnummer',
     card_number_placeholder:'Ditt kortnummer',
     card_type:'Korttyp',
@@ -97,7 +97,7 @@ window.__mulang = {
     bank_payment: 'Bank',
     paypal_payment: 'PayPal',
     invoice_payment: 'Faktura',
-    paypal_hl: 'HÃ¤r kan du enkelt betala med PayPal',
+    paypal_hl: 'Här kan du enkelt betala med PayPal',
     paypal_btn: 'Betala med PayPal',
 
     individual: 'Privatperson',
