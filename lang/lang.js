@@ -1,4 +1,4 @@
-// Mondido mulang v1.6.5, (c) Mondido Payments AB 2016, hello@mondido.com
+// Mondido mulang v2.1.0, (c) Mondido Payments AB 2016, hello@mondido.com
 
 window.__mulang = {
   current: null,
@@ -11,6 +11,7 @@ window.__mulang = {
     {name: 'Suomi',code:'fi'},
     {name: 'Español',code:'es'},
     {name: 'Français',code:'fr'},
+    {name: 'čeština', code: 'cz'}
   ],
   en: {
     pay_headline:'Payment',
@@ -34,6 +35,8 @@ window.__mulang = {
     failed_message: 'Your payment was declined, please try again with a new card or verify your numbers.',
     validation_message: 'All fields need to be filled in. Whats missing is:\n',
     choose_payment_option: 'Please choose payment option',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Card',
     swish_payment: 'Swish',
     bank_payment: 'Bank',
@@ -64,11 +67,12 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0}</a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
-    easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
+    easily_pay_with_swish_mobile: 'Här kan du enkelt betala med Swish i mobilen',
 
     powered_by: 'Powered by '
-    
+
 },
   sv: {
     pay_headline:'Betalning',
@@ -85,13 +89,15 @@ window.__mulang = {
     pay_button:'Betala',
     safe_text:'Din betalning sker säkert genom Mondido. Butiken kommer aldrig i kontakt med dina kortuppgifter, all information skickas krypterad till din bank. Mondido är PCI DSS Level 1 och använder HTTPS/TLS vilket är industribankstandard för säkra e-handelstransaktioner.',
     loading: 'Laddar',
-    
+
     exp_month: 'Månad',
     exp_year: 'År',
     card_not_accepted: '{card} accepteras inte',
     failed_message: 'Din betalning nekades tyvärr, prova med ett annat kort eller betalsätt.',
     validation_message: 'Alla fällt behöver fyllas i, det som saknas är:\n',
     choose_payment_option: 'Välj betalmetod',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Kort',
     swish_payment: 'Swish',
     bank_payment: 'Bank',
@@ -122,6 +128,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Ja, jag accepterar <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> Allmänna villkor för faktura och kontokredit </a> och <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardiserad Europeisk konsumentkreditinformation </a> , samt <a target="_new" href="{1}"> köpvillkor hos {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/se/whatistrustly" target="_blank">Vad är Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Här kan du enkelt betala med Swish i mobilen',
 
@@ -142,13 +149,15 @@ window.__mulang = {
     pay_button:'Zahlen',
     safe_text:'Ihre Zahlung erfolgt sicher durch Mondido. Das Geschäft wird nie mit Ihrer Kreditkarteninformationen in Kontakt stehen, sind alle Informationen zu Ihrer Bank spät verschlüsselt. Mondido ist PCI DSS Stufe 1 zertifiziert und verwenden HTTPS / TLS, mit denen die Bankenindustriestandard für sichere E-Commerce-Transaktionen ist.',
     loading: 'Loading',
-    
+
     exp_month: 'Monat',
     exp_year: 'Jahr',
     card_not_accepted: '{card} wird nicht akzeptiert',
     failed_message: 'Ihre Zahlung wurde abgelehnt, bitte versuchen Sie es erneut mit einer neuen Karte oder überprüfen Sie Ihre Zahlen.',
     validation_message: 'Alle Felder müssen ausgefüllt werden. Was fehlt, ist:\n',
     choose_payment_option: 'Bitte wählen Sie Zahlungsoption',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Karte',
     swish_payment: 'Swish',
     bank_payment: 'Bank',
@@ -179,6 +188,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_EN.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_EN.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
@@ -199,13 +209,15 @@ window.__mulang = {
     pay_button:'betale',
     safe_text:'Din Betaling sker sikkert af Mondido. Butikken vil aldrig være i kontakt med dine kreditkortoplysninger, er alle de oplysninger, sent krypteret til din bank. Mondido er PCI DSS niveau 1-certificeret og bruger HTTPS / TLS, Hvilket er banksektoren standard for sikre e-handelstransaktioner.',
     loading: 'Lastning',
-    
+
     exp_month : 'måned',
     exp_year: 'År',
     card_not_accepted: '{card} er ikke accepteret',
     failed_message: 'Din betaling blev afvist, skal du prøve igen med et nyt kort eller bekræfte dine numre.',
     validation_message: 'Alle felter skal udfyldes. Hvad mangler er:\n',
     choose_payment_option: 'Vælg betalingsmulighed',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Kort',
     swish_payment: 'Swish',
     bank_payment: 'Bank',
@@ -236,6 +248,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_DE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_DE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
@@ -256,13 +269,15 @@ window.__mulang = {
     pay_button:'Afwerking betaling',
     safe_text:'Uw betaling wordt veilig gemaakt door Mondido. De winkel zal nooit in contact met uw credit card informatie, wordt alle informatie late gecodeerd om uw bank. Mondido is PCI DSS Level 1 gecertificeerd en gebruiken HTTPS / TLS, dat is de banksector standaard voor veilige e-commerce transacties.',
     loading: 'Het laden',
-    
+
      exp_month: 'Maand',
     exp_year: 'Jaar',
     card_not_accepted: '{card} wordt niet geaccepteerd',
     failed_message: 'Uw betaling is geweigerd, probeer het opnieuw met een nieuwe kaart of controleren of uw nummers.',
     validation_message: 'Alle velden moeten worden ingevuld. Wat ontbreekt is:\n',
     choose_payment_option: 'Kies betaalmethode',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Kaart',
     swish_payment: 'Swish',
     bank_payment: 'Bank',
@@ -293,6 +308,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_NL.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_NL.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
@@ -313,13 +329,15 @@ window.__mulang = {
     pay_button:'Viimeistely maksu',
     safe_text:'Maksu on tehdä turvallisiksi Mondido. Myymälä ei koskaan kosketuksiin luottokortin tiedot, kaikki tiedot on myöhässä salattu pankkiisi. Mondido on PCI DSS Taso 1 sertifioitu ja HTTPS / TLS, Joka on pankki- alan standardi turvallisen sähköisen kaupankäynnin.',
     loading: 'Ladataan',
-    
+
     exp_month: 'Kuukausi',
     exp_year: 'Vuosi',
     card_not_accepted: '{card} ei käy',
     failed_message: 'Maksu hylättiin, yritä uudelleen uudella kortilla tai tarkistaa numerot.',
     validation_message: 'Kaikki kentät on täytettävä. Mitä puuttuu on:\n',
     choose_payment_option: 'Valitse maksuvaihtoehto',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Kortti',
     swish_payment: 'Swish',
     bank_payment: 'Pankki',
@@ -350,6 +368,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_FI.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_FI.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
@@ -370,13 +389,15 @@ window.__mulang = {
     pay_button:'Pago Finalizar',
     safe_text:'Su pago es asegurada por Mondido. La tienda nunca estará en contacto con la información de su tarjeta de crédito, toda la información está encriptada tarde para su banco. Mondido es el Nivel 1 de PCI DSS certificada y utilizar HTTPS / TLS, que es el estándar de la industria bancaria para transacciones seguras de comercio electrónico.',
     loading: 'Cargando',
-    
+
     exp_month: 'Mes',
     exp_year: 'Año',
     card_not_accepted: '{card} no es aceptada',
     failed_message: 'Se rechazó su pago, por favor intente de nuevo con una nueva tarjeta o verificar sus números.',
     validation_message: 'Todos los campos deben ser llenados. Lo que falta es:\n',
     choose_payment_option: 'Por favor seleccione la opción de pago',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Tarjeta',
     swish_payment: 'Swish',
     bank_payment: 'Banco',
@@ -407,6 +428,7 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
@@ -427,13 +449,15 @@ window.__mulang = {
     pay_button:'Paiement Terminer',
     safe_text:'Votre paiement est sécurisé par Mondido. Le magasin ne sera jamais en contact avec vos informations de carte de crédit, toutes les informations sont cryptées fin ? votre banque. Mondido est de niveau 1 PCI DSS certifié et utiliser HTTPS / TLS, qui est la norme de l\'industrie bancaire pour les transactions de commerce électronique sécurisés.',
     loading: 'Chargement',
-    
+
     exp_month: 'Mois',
     exp_year: 'Année',
     card_not_accepted: '{card} non acceptée',
     failed_message: 'Votre paiement a été refusé, s\'il vous plaît essayer ? nouveau avec une nouvelle carte ou vérifier vos numéros.',
     validation_message: 'Tous les champs doivent être remplis. Ce qui manque est:\n',
     choose_payment_option: 'S\'il vous plaît choisir l\'option de paiement',
+    processing_secure_payment: 'Processing secure payment',
+
     card_payment: 'Carte',
     swish_payment: 'Swish',
     bank_payment: 'Banque',
@@ -464,9 +488,71 @@ window.__mulang = {
     invoice_accept_conditions: 'Yes, I have read and accept Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0} </a>',
 
     what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
 
     easily_pay_with_swish_mobile: 'Pay with Swish Mobile',
 
     powered_by: 'Powered by '
+  },
+
+  cz: {
+    pay_headline:'Platba',
+    amount: 'Množství: <strong>{0} {1}</strong>',
+    intro:'Úvod',
+    card_holder:'Jméno držitele karty',
+    card_holder_placeholder: 'Jméno Příjmení',
+    card_number:'Číslo karty',
+    card_number_placeholder:'Vaše číslo karty',
+    card_type:'Typ karty',
+    card_type_placeholder: 'VISA / MASTERCARD',
+    cvc:'CVV kód',
+    expiry:'Datum platnosti',
+    pay_button:'Dokončení platby',
+    safe_text:'Vaše platba je provedena zabezpečením Mondido. Náš obchod nebude žádným způsobem v kontaktu s vaší kartou, všechny informace jsou vaší bance odeslány šifrovaně. Mondido je certifikovaný PCI DSS Level 1 a používaný HTTPS/TLS, což je standardem bankovních společností pro zabezpečení e-obchodní transakce.',
+    loading: 'Načítání',
+
+    exp_month: 'Měsíc',
+    exp_year: 'Rok',
+    card_not_accepted: '{card} Karta není přijata',
+    failed_message: 'Vaše platba byla zamítnuta, prosím zkuste to znovu s jinou kartou, nebo zkontroluje zda sedí čísla na vaší kartě.',
+    validation_message: 'Všechna pole musí být vyplněna. Co je chybějící:\n',
+    choose_payment_option: 'Prosím vyberte možnost platby',
+    processing_secure_payment: 'Processing secure payment',
+
+    card_payment: 'Karta',
+    swish_payment: 'Swish',
+    bank_payment: 'Banka',
+    paypal_payment: 'PayPal',
+    invoice_payment: 'Faktura',
+    paypal_hl: 'Jednoduchá Platba s PayPal',
+    paypal_btn: 'Platit s PayPal',
+
+    individual: 'Individuální',
+    business: 'Obchodní',
+
+    your_email_address: 'Vaše emailová sdresa',
+    your_phone_number: 'Vaše telefonní číslo',
+    your_mobile_number: 'Vaše mobilní číslo',
+    your_social_security_number: 'Vaše číslo sociálního zabezpečení',
+
+    first_name: 'Jméno',
+    last_name: 'Příjmení',
+    address: 'Adresa',
+    co_address: 'Přechodná adresa',
+    zip: 'PSČ',
+    city: 'Město',
+
+    i_accept: 'Příjmám',
+
+    invoice_address_could_not_be_retrieved: 'Vaše adresa se nepodařilo získat. Zkontrolujte vámi zadané číslo  sociálního zabezpečení. Například 195203198089',
+    invoice_footer_conditions: 'Jakmile zvolíte fakturu, obdržíte Vaše zboží před zaplacením. Poté můžete zvolit zaplatit celou částku najednou, nebo rozdělit platby na měsíční splátky. Faktura bude zaslána pomocí e-mailu. Aby bylo možné se vypořádat s korekturou vyúčtování, musí vám být alespoň 18 let. Faktura bude zaslána e-mail. Více informací lze najít na adrese',
+    invoice_accept_conditions: 'Ano, četl jsem a souhlasím Collector Bank\'s  <a target="_new" href="https://www.collector.se/upload/Partners/Agreements/{2}/Credit_terms_All_SE.pdf"> General Conditions For Invoice And Credit Accounts </a> and <a target="_new" href="http://www.collector.se/upload/Partners/Agreements/{3}/SECCI_SE.pdf"> Standardised European Consumer Credit Information </a> , and <a target="_new" href="{1}"> Conditions {0}</a>',
+
+    what_is_trustly: '<a href="https://trustly.com/en/whatistrustly" target="_blank">What is Trustly?</a>',
+    easily_pay_with_trustly: "Pay easily with PayPal trustly",
+
+    easily_pay_with_swish_mobile: 'Placeno se Swish Mobile',
+
+    powered_by: 'Poháněno '
   }
 };
