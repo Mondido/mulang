@@ -59,6 +59,7 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
+    company_name: 'Company name',
 
     i_accept: 'I accept',
 
@@ -120,6 +121,7 @@ window.__mulang = {
     co_address: 'C/O Adress',
     zip: 'Postnummer',
     city: 'Stad',
+    company_name: 'Företagsnamn',
 
     i_accept: 'Jag accepterar',
 
@@ -180,6 +182,7 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
+    company_name: 'Company name',
 
     i_accept: 'I accept',
 
@@ -240,7 +243,8 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
-
+    company_name: 'Company name',
+    
     i_accept: 'I accept',
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
@@ -300,7 +304,8 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
-
+    company_name: 'Company name',
+    
     i_accept: 'I accept',
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
@@ -360,7 +365,8 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
-
+    company_name: 'Company name',
+    
     i_accept: 'I accept',
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
@@ -420,7 +426,8 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
-
+    company_name: 'Company name',
+    
     i_accept: 'I accept',
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
@@ -480,7 +487,8 @@ window.__mulang = {
     co_address: 'c/o Address',
     zip: 'Zip',
     city: 'City',
-
+    company_name: 'Company name',
+    
     i_accept: 'I accept',
 
     invoice_address_could_not_be_retrieved: 'Your address could not be retrieved . Check that you have entered the correct Social Security number. Example 195203198089',
@@ -541,7 +549,8 @@ window.__mulang = {
     co_address: 'Přechodná adresa',
     zip: 'PSČ',
     city: 'Město',
-
+    company_name: 'Company name',
+    
     i_accept: 'Příjmám',
 
     invoice_address_could_not_be_retrieved: 'Vaše adresa se nepodařilo získat. Zkontrolujte vámi zadané číslo  sociálního zabezpečení. Například 195203198089',
