@@ -45,8 +45,8 @@ window.__mulang = {
     paypal_hl: 'Pay easily with PayPal',
     paypal_btn: 'Pay with PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -107,8 +107,8 @@ window.__mulang = {
     paypal_hl: 'Här kan du enkelt betala med PayPal',
     paypal_btn: 'Betala med PayPal',
 
-    individual: 'Privatperson',
-    business: 'Företag',
+    individual: 'Privatperson?',
+    business: 'Företag?',
 
     your_email_address: 'Din e-postadress',
     your_phone_number: 'Ditt telefonnummer',
@@ -168,8 +168,8 @@ window.__mulang = {
     paypal_hl: 'Moonrise Bezahlen mit PayPal',
     paypal_btn: 'Bezahlen mit PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -229,8 +229,8 @@ window.__mulang = {
     paypal_hl: 'Nem betaling med PayPal',
     paypal_btn: 'Betal med PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -290,8 +290,8 @@ window.__mulang = {
     paypal_hl: 'Gemakkelijk betalen met PayPal',
     paypal_btn: 'Betalen met PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -351,8 +351,8 @@ window.__mulang = {
     paypal_hl: 'Helppo maksu PayPal',
     paypal_btn: 'Maksa PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -412,8 +412,8 @@ window.__mulang = {
     paypal_hl: 'Cómodos pagos con PayPal',
     paypal_btn: 'Pagar con PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -473,8 +473,8 @@ window.__mulang = {
     paypal_hl: 'Facilité de paiement avec PayPal',
     paypal_btn: 'Payez avec PayPal',
 
-    individual: 'Individual',
-    business: 'Business',
+    individual: 'Individual?',
+    business: 'Business?',
 
     your_email_address: 'Your email address',
     your_phone_number: 'Your phone number',
@@ -535,8 +535,8 @@ window.__mulang = {
     paypal_hl: 'Jednoduchá Platba s PayPal',
     paypal_btn: 'Platit s PayPal',
 
-    individual: 'Individuální',
-    business: 'Obchodní',
+    individual: 'Individuální?',
+    business: 'Obchodní?',
 
     your_email_address: 'Vaše emailová sdresa',
     your_phone_number: 'Vaše telefonní číslo',
