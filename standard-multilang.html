@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="lib/mulang-1.0.js"></script>
-    <script type="text/javascript" src="lang/languages.js"></script>
+    <script type="text/javascript" src="lib/mulang.js"></script>
+    <script type="text/javascript" src="lang/lang.js"></script>
     <style>
         .lang_switch{
             cursor: pointer;
             color: blue;
         }
-
     </style>
 </head>
 <body>
@@ -19,20 +18,29 @@
     <span class="lang_switch" lang="sv">Swedish</span>
 </div>
 <ul class="nav">
-    <li><a href="#" mulang="pay_headline['<b>10</b>','USD']">en text</a></li>
+    <li><a href="#" mulang="amount['<b>10</b>','USD']">en text</a></li>
     <li><a href="#" mulang="intro">en annan text</a></li>
     <li><a href="#" mulang="card_holder">mer text</a></li>
     <li>
         <input mulang="card_number:value" />
     </li>
+    <li mulang="what_is_trustly">
+        <a href="https://trustly.com/se/whatistrustly" target="_blank">Vad är Trustly?</a>
+    </li>
+    <li>
+        <input mulang="card_type_placeholder:placeholder;card_type:value" />
+    </li>
 </ul>
 <script>
     function initMulang(lang){
-        var options = {ignore_locale:false};
+        var options = {
+            ignore_locale: true,
+            fallback: 'fi'
+        };
         if(lang){
             options.lang = lang
         }
-        $('a,input').mulang(options);
+        $('[mulang]').mulang(options); // apply for all elements with mulang attribute
     }
 
     $( document ).ready(function() {
