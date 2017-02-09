@@ -3,45 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="lib/mulang-1.0.js"></script>
-    <script type="text/javascript" src="lang/languages.js"></script>
+    <script type="text/javascript" src="lib/mulang.js"></script>
+    <script type="text/javascript" src="lang/lang.js"></script>
     <style>
         .lang_switch{
             cursor: pointer;
             color: blue;
         }
-
     </style>
 </head>
 <body>
-<div>
-    <span class="lang_switch" lang="en">English</span> |
-    <span class="lang_switch" lang="sv">Swedish</span>
-</div>
+<div class="language_switch"></div>
 <ul class="nav">
-    <li><a href="#" mulang="pay_headline['<b>10</b>','USD']">en text</a></li>
+    <li><a href="#" mulang="amount['<b>10</b>','USD']">en text</a></li>
     <li><a href="#" mulang="intro">en annan text</a></li>
     <li><a href="#" mulang="card_holder">mer text</a></li>
     <li>
         <input mulang="card_number:value" />
     </li>
+    <li mulang="what_is_trustly">
+        <a href="https://trustly.com/se/whatistrustly" target="_blank">Vad är Trustly?</a>
+    </li>
+    <li>
+        <input mulang="card_type_placeholder:placeholder;card_type:value" />
+    </li>
 </ul>
-<script>
-    function initMulang(lang){
-        var options = {ignore_locale:false};
-        if(lang){
-            options.lang = lang
-        }
-        $('a,input').mulang(options);
-    }
 
-    $( document ).ready(function() {
-        initMulang();
-        $('.lang_switch').on('click',function(){
-            lang = $(this).attr('lang');
-            initMulang(lang);
-        });
+<script>
+$( document ).ready(function() {
+    var options = {
+        lang: 'ru', //what language to use
+        fallback: 'en', //if lang is not found in file, fall back to this
+        ignore_locale: true //when grabbing the language from the browser (en-US) ignore the locale (US) 
+    };
+    var lang_set = $('[mulang]').mulang(options);
+
+    //add select with language options
+    if(window.__mulang && __mulang.languages) {
+        $('.language_switch').append('<select></select>');
+        for (let lang of __mulang.languages) {
+            $('.language_switch select').append('<option value="'+lang.code+'">'+lang.name+'</option>');
+        }
+    }
+    $('.language_switch select').val(lang_set);
+
+    //changing language
+    $('.language_switch select').on('change', function() {
+        options.lang = this.value;
+        $('[mulang]').mulang(options);
     });
+})
 </script>
 </body>
 </html>

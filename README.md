@@ -38,13 +38,23 @@ The syntax to allow text to be replaces in HTML is:
 ```
 <a href="#" mulang="card_holder">text to be replaced</a>
 ```
-To replace a certain attribute (in this case, the value attribute:
+To replace a certain attribute (in this case, the value attribute):
 ```
-<input mulang="card_number:value" />
+<input mulang="card_number:value" value='text to be replaced' />
+```
+To replace html:
+```
+<div mulang="text_with_html_tags">
+    <b>Whole this text with <font color="red">tags</font> will be replaced</b>
+</div>
+```
+To replace two attributes in one element:
+```
+<input mulang="card_type_placeholder:placeholder;card_type:value" />
 ```
 To apply placeholders:
 ```
-<a href="#" mulang="pay_headline['<b>10</b>','USD']">text to be replaced</a>
+<a href="#" mulang="amount['<b>10</b>','USD']">text to be replaced</a>
 ```
 The placeholder string use the {0} syntax:
 ```
